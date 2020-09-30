@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        hey = () => {
+            var text = document.getElementById('text').value; 
+            text = text.split("").reverse().join();
+            alert(text);
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id=text>
+    <button onclick="hey();">Aqui</button>
+</body>
+</html>
